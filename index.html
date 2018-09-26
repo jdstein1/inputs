@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form Input Types</title>
+	<style>
+		*, *:before, *:after {
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+			border:none;
+			width:100%;
+		}
+		html {
+			font-size:62.5%;
+		}
+		body {
+			font-size:1.4em;
+		}
+		form {
+			/*border:1px purple solid;*/
+			padding:1em;
+		}
+		fieldset {
+			/*border:1px purple solid;*/
+		}
+		label {
+			/*border:1px purple solid;*/
+			display:block;
+			margin:0 0 1em 0;
+			padding:0.5em;
+		}
+		input {
+			/*border:1px purple solid;*/
+			display:block;
+			padding:0.5em 1em;
+			box-shadow: 0.125em 0.125em 0.25em 0 #ccc inset;
+			border:2px inset #eee;
+			font-family: monospace;
+		}
+		.resources {
+			padding:1em;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<label for="text">
+				<span>Input: "text"</span>
+				<input type="text" name="text">
+			</label>
+			<label for="number">
+				<span>Input: "number"</span>
+				<input type="number" name="number">
+			</label>
+			<label for="tel">
+				<span>Input: "tel"</span>
+				<input type="tel" name="tel">
+			</label>
+			<label for="email">
+				<span>Input: "email"</span>
+				<input type="email" name="email">
+			</label>
+			<label for="password">
+				<span>Input: "password"</span>
+				<input type="password" name="password">
+			</label>
+			<label for="search">
+				<span>Input: "search"</span>
+				<input type="search" name="search">
+			</label>
+			<label for="url">
+				<span>Input: "url"</span>
+				<input type="url" name="url">
+			</label>
+			<label for="range">
+				<span>Input: "range"</span>
+				<input type="range" name="range">
+			</label>
+			<label for="date">
+				<span>Input: "date"</span>
+				<input type="date" name="date">
+			</label>
+			<label for="time">
+				<span>Input: "time"</span>
+				<input type="time" name="time">
+			</label>
+			<label for="datetime">
+				<span>Input: "datetime"</span>
+				<input type="datetime" name="datetime">
+			</label>
+			<label for="datetime-local">
+				<span>Input: "datetime-local"</span>
+				<input type="datetime-local" name="datetime-local">
+			</label>
+			<label for="week">
+				<span>Input: "week"</span>
+				<input type="week" name="week">
+			</label>
+			<label for="month">
+				<span>Input: "month"</span>
+				<input type="month" name="month">
+			</label>
+			<label for="color">
+				<span>Input: "color"</span>
+				<input type="color" name="color">
+			</label>
+		</fieldset>
+	</form>
+	<div class="resources">
+		<ul>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">MDN: &lt;input&gt;: The Input (Form Input) element
+</a></li>
+			<li><a href="http://html5doctor.com/html5-forms-input-types/">HTML5 Doctor: HTML5 forms input types</a></li>
+		</ul>
+	</div>
+	
+</body>
+</html>
